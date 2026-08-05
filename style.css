@@ -11,13 +11,35 @@ body {
 
 /* Página inicial */
 #inicio {
-    background: url("imagens/hehehe.jpg") center/cover no-repeat;
+   background: url("imagens/hehehe.jpg") center/cover no-repeat;
     min-height: 100vh;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Centraliza na vertical */
+    align-items: center;     /* Centraliza na horizontal */
+    text-align: center;
+}
+
+#inicio h1 {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 10px black;
+}
+
+#inicio button {
+    padding: 15px 35px;
+    font-size: 22px;
+    border: none;
+    border-radius: 15px;
+    background-color: #ff6fa5;
+    color: white;
+    cursor: pointer;
+}
+
+#inicio button:hover {
+    background-color: #ff4d8d;
 }
 
 /* Página da pergunta */
