@@ -119,3 +119,15 @@ button {
 button:hover {
     background-color: #ff4d8d;
 }
+
+#sim {
+    background: hotpink !important;
+    color: white !important;
+    border: none !important;
+}
+
+#nao {
+    background: hotpink !important;
+    color: white !important;
+    border: none !important;
+}
