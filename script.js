@@ -6,7 +6,9 @@ let tamanhoSim = 1;
 let tamanhoNao = 1;
 
 const gifs = [
-    "imagens/Hikaru triste"
+    "Hikaru triste/993606736515825158.jpg"
+    "Hikaru triste/★ (1).jpg"
+    "Hikaru triste/Hikaru ga Shinda Natsu.jpg"
 ];
 
 let indice = 0;
