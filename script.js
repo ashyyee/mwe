@@ -6,9 +6,7 @@ let tamanhoSim = 1;
 let tamanhoNao = 1;
 
 const gifs = [
-    "imagens/gif1.gif",
-    "imagens/gif2.gif",
-    "imagens/gif3.gif"
+    "Hikaru ga Shinda Natsu.jpg"
 ];
 
 let indice = 0;
