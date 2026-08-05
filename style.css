@@ -94,3 +94,18 @@ button {
     width: 300px;
     border-radius: 10px;
 }
+
+#sim,
+#nao {
+    background-color: #ff6fa5;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 12px 25px;
+    font-size: 20px;
+}
+
+#sim:hover,
+#nao:hover {
+    background-color: #ff4d8d;
+}
