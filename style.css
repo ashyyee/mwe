@@ -39,6 +39,12 @@ button{
     transition:0.3s;
 }
 
+#pergunta{
+    background: url("imagens/fundo2.jpg") center/cover no-repeat;
+    min-height: 100vh;
+}
+
+
 .carta{
     background:#fff8f5;
     padding:30px;
