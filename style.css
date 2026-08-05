@@ -1,56 +1,74 @@
-body{
-    margin:0;
-    font-family:Arial, sans-serif;
-    text-align:center;
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
-#inicio{
-    html, body{
-    margin:0;
-    width:100%;
-    height:100%;
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
 
-body{
-    font-family:Arial, sans-serif;
-    text-align:center;
-}
-}
-
-.container{
-    margin-top:40px;
-}
-
-#imagem{
-    width:300px;
-    margin-bottom:20px;
-}
-
-.botoes{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-}
-
-button{
-    padding:12px 25px;
-    font-size:20px;
-    cursor:pointer;
-    transition:0.3s;
-}
-
-#pergunta{
-    background: url("imagens/fundo2.jpg") center/cover no-repeat;
+/* Página inicial */
+#inicio {
+    background: url("imagens/hehehe.jpg") center/cover no-repeat;
     min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+/* Página da pergunta */
+#pergunta {
+    background: url("imagens/hehehe.jpg") center/cover no-repeat;
+    min-height: 100vh;
 
-.carta{
-    background:#fff8f5;
-    padding:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.foto{
-    width:300px;
-    border-radius:10px;
+/* Página da carta */
+#carta {
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+#imagem {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.carta {
+    background: #fff8f5;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.foto {
+    width: 300px;
+    border-radius: 10px;
 }
