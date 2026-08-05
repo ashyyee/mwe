@@ -105,14 +105,13 @@ button:hover {
     border-radius: 10px;
 }
 
-#sim {
-    background: hotpink !important;
+button {
+    background-color: #ff6fa5 !important;
     color: white !important;
     border: none !important;
+    border-radius: 15px !important;
 }
 
-#nao {
-    background: hotpink !important;
-    color: white !important;
-    border: none !important;
+button:hover {
+    background-color: #ff4d8d !important;
 }
